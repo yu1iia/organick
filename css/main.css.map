@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/utils/_mixins.scss",
+        "../sass/utils/_placeholders.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
