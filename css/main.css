@@ -1,6 +1,7 @@
 .container {
   padding: 0 25px;
   margin: 0 auto;
+  width: 1440px;
 }
 
 *,
@@ -80,6 +81,33 @@ img {
 
 .navigation__list-link:hover, .navigation__list-link:focus {
   color: #7eb693;
+}
+
+.hero {
+  padding: 230px 30px 250px 30px;
+  display: block;
+  height: 913px;
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.2;
+  letter-spacing: 0.36px;
+  color: #274c5b;
+}
+
+.hero__description {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.8;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7eb693;
+  font-family: "Yellowtail", cursive;
 }
 
 .cart__container {
