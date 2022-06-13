@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $main-font;
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
+.section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+
+  &:focus {
+    color: title-color;
+  }
+}
+
+.address {
+  font-style: normal;
+}

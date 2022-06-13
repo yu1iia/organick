@@ -1,0 +1,41 @@
+.header .container {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  // position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 0;
+
+  &__logo {
+    margin-right: 120px;
+  }
+}
+.navigation {
+  display: flex;
+  align-items: center;
+
+  &__list {
+    display: flex;
+
+    &-element:not(:last-child) {
+      margin-right: 40px;
+    }
+
+    &-link {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 1.6;
+      letter-spacing: 0.36px;
+      color: $title-color;
+      transition: color 250ms linear;
+
+      &:hover,
+      &:focus {
+        color: $accent-color;
+      }
+    }
+  }
+}

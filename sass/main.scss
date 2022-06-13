@@ -4,7 +4,11 @@
 @import './utils/placeholders';
 
 // base
+@import './base/container';
+@import './base/common';
 
 // components
 
 // layout
+@import './layouts/header';
+@import './layouts/cart';

@@ -18,7 +18,7 @@
   </head>
   <body>
     <!--HEADER Section-->
-    <header>
+    <header class="header">
       <div class="container">
         <nav class="navigation">
           <a
@@ -45,16 +45,23 @@
               <a class="navigation__list-link link" href="">Contact Us</a>
             </li>
           </ul>
-        </nav>
-        <div class="cart">
-          <a class="cart__icon">
-            <svg width="56" height="56">
-              <use href="./images/sprite.svg#cart"></use>
-            </svg>
-            <p>Cart <span>0</span></p>
-          </a>
-        </div>
+         </nav>  
 
+         <!--Cart header-->
+
+        <div class="cart__container">
+          <a class="cart__icon link" href="./index.html">
+           <img src="./images/cart.svg">
+            
+          </a>
+          <a class="cart__details link" href="./index.html">
+          Cart <span class="cart__added">0</span>
+            
+          </a>
+          
+        </div>
+   
+  </header>
     <!--HERO Section-->
     <section class="hero">Hero</section>
 
