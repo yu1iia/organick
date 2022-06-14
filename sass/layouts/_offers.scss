@@ -4,9 +4,10 @@
   &__list {
     display: flex;
     justify-content: space-between;
-    &-item {
-      position: relative;
-    }
+    position: relative;
+    // &-item {
+    //   position: relative;
+    // }
   }
 
   &__header {

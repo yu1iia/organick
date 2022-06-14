@@ -26,32 +26,37 @@
       margin-top: 30px;
     }
   }
-  &__description-welcome,
-  &__mission-item-detailes {
-    font-family: 'Open Sans';
-    color: $font-color;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    letter-spacing: 0.36px;
-  }
-  &__description-welcome {
-    margin-top: 22px;
-    margin-bottom: 50px;
-  }
-  &__mission-item-title {
-    display: block;
-    font-family: $main-font;
-    color: $title-color;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 35px;
-    letter-spacing: 0.36px;
-  }
+}
+&__description-welcome,
+&__mission-item-detailes {
+  font-family: 'Open Sans';
+  color: $font-color;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+}
+&__description-welcome {
+  margin-top: 22px;
+  margin-bottom: 50px;
+}
+&__mission-item-title {
+  display: block;
+  font-family: $main-font;
+  color: $title-color;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.36px;
 
-  &__mission-icon {
-    margin-right: 20px;
+  &:hover {
+    font-weight: 600;
+    transition: font-weight 250ms linear;
   }
+}
+
+&__mission-icon {
+  margin-right: 20px;
 
   &__link {
     display: flex;
@@ -69,10 +74,16 @@
     font-family: $main-font;
     background-color: $title-color;
     color: rgba(255, 255, 255, 1);
-    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
     border: none;
     border-radius: 30px;
     margin-top: 35px;
+
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+      transition: box-shadow 250ms linear;
+    }
 
     &__container {
       margin: 0;
