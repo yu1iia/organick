@@ -1,5 +1,17 @@
-@mixin font($fw: 400, $fs: 16px, $lh: 24px) {
+@mixin secondary-font(
+  $fw: 400,
+  $fs: 36px,
+  $lh: 65px,
+  $ls: 0.36px,
+  $tt: capitalize,
+  $accent-color: #7eb693,
+  $logo-font: 'Yellowtail'
+) {
   font-weight: $fw;
   font-size: $fs;
   line-height: $lh / $fs;
+  letter-spacing: $ls;
+  text-transform: $tt;
+  color: $accent-color;
+  font-family: $logo-font;
 }

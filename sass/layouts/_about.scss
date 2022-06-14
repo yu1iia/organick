@@ -1,0 +1,100 @@
+.about {
+  margin-top: 540px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 177px 0 187px 0;
+  }
+
+  &__description {
+    margin-top: -40px;
+  }
+
+  &__title {
+    @include secondary-font;
+  }
+  &__mission {
+    font-family: $main-font;
+    color: $title-color;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.28;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    &-list {
+      margin-top: 30px;
+    }
+  }
+  &__description-welcome,
+  &__mission-item-detailes {
+    font-family: 'Open Sans';
+    color: $font-color;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+  }
+  &__description-welcome {
+    margin-top: 22px;
+    margin-bottom: 50px;
+  }
+  &__mission-item-title {
+    display: block;
+    font-family: $main-font;
+    color: $title-color;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+  }
+
+  &__mission-icon {
+    margin-right: 20px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  &__button {
+    width: 199px;
+    height: 82px;
+
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.68;
+    letter-spacing: 0.36px;
+    font-family: $main-font;
+    background-color: $title-color;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+    border-radius: 30px;
+    margin-top: 35px;
+
+    &__container {
+      margin: 0;
+      padding-left: 30px;
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+    }
+    &-icon {
+      display: block;
+      background-color: $button-icon-color;
+      border-radius: 50%;
+      margin-left: 25px;
+      margin-right: 10px;
+      width: 38px;
+      height: 34px;
+      padding: 12px;
+    }
+  }
+}
+
+.about .container {
+  background-color: #f9f8f8;
+}
