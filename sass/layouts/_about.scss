@@ -1,5 +1,5 @@
 .about {
-  margin-top: 540px;
+  margin-top: 140px;
   &__container {
     display: flex;
     justify-content: space-between;
@@ -25,44 +25,51 @@
     &-list {
       margin-top: 30px;
     }
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+    }
+    &-icon {
+      display: inline-block;
+    }
   }
-}
-&__description-welcome,
-&__mission-item-detailes {
-  font-family: 'Open Sans';
-  color: $font-color;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-  letter-spacing: 0.36px;
-}
-&__description-welcome {
-  margin-top: 22px;
-  margin-bottom: 50px;
-}
-&__mission-item-title {
-  display: block;
-  font-family: $main-font;
-  color: $title-color;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 35px;
-  letter-spacing: 0.36px;
 
-  &:hover {
-    font-weight: 600;
-    transition: font-weight 250ms linear;
+  &__description-welcome {
+    font-family: 'Open Sans';
+    color: $font-color;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    margin-top: 22px;
+    margin-bottom: 50px;
   }
-}
-
-&__mission-icon {
-  margin-right: 20px;
-
-  &__link {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+  &__mission-item-detailes {
+    font-family: 'Open Sans';
+    color: $font-color;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    margin-left: 20px;
   }
+  &__mission-item-title {
+    display: block;
+    font-family: $main-font;
+    color: $title-color;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+
+    &:hover {
+      font-weight: 600;
+      transition: font-weight 250ms linear;
+    }
+  }
+
   &__button {
     width: 199px;
     height: 82px;
@@ -105,7 +112,10 @@
     }
   }
 }
-
 .about .container {
   background-color: #f9f8f8;
+}
+.about__link {
+  display: flex;
+  justify-content: space-between;
 }

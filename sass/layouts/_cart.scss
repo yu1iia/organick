@@ -8,7 +8,11 @@
     width: 159px;
     border: 1px solid #d4d4d4;
     border-radius: 40px;
-    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    &:hover {
+      box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+      transition: box-shadow 250ms linear;
+    }
   }
   &__details {
     font-family: $main-font;
