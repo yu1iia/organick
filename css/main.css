@@ -356,4 +356,74 @@ img {
 .natural {
   color: #ffffff;
 }
+
+.products__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.80556;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7eb693;
+  font-family: "Yellowtail";
+  text-align: center;
+  padding-top: 110px;
+  margin-bottom: 10px;
+}
+
+.products__description {
+  font-family: "Roboto", sans-serif;
+  color: #274c5b;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.28;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.products__list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products__category {
+  font-weight: 700;
+  font-size: 15px;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 118px;
+  color: #ffffff;
+  background-color: #274c5b;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: baseline;
+  position: absolute;
+  top: 37px;
+}
+
+.products__item {
+  position: relative;
+  padding: 67px 30px 145px;
+  background-color: #f9f8f8;
+}
+
+.products__item:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product__image:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product__name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  color: #274c5b;
+  letter-spacing: 0.36px;
+}
 /*# sourceMappingURL=main.css.map */
