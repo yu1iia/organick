@@ -1,0 +1,105 @@
+.testimonial {
+  margin: 0 auto;
+  display: block;
+
+  padding-bottom: 150px;
+  background-image: url('../images/testimonial.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  &__title {
+    @include secondary-font;
+    text-align: center;
+    padding-top: 130px;
+    margin-top: 120px;
+  }
+  &__question {
+    font-family: $main-font;
+    color: $title-color;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.28;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  &__profile {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  &__message {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: $font-color;
+
+    &-author {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 34px;
+      text-align: center;
+      letter-spacing: 0.36px;
+      color: $title-color;
+
+      &-status {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.36px;
+        color: $font-color;
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 168px;
+    margin-left: 168px;
+    width: 1104px;
+  }
+  &__item {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: $title-color;
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid #7eb693;
+    margin-top: 100px;
+    padding-top: 80px;
+  }
+  &__options {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: -20px;
+  }
+}
+.border {
+  display: inline-block;
+  width: 966px;
+  height: 2px;
+  background-color: #e0e0e0;
+  text-align: center;
+  margin: 0 auto;
+}
