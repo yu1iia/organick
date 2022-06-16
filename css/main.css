@@ -406,8 +406,10 @@ img {
 
 .products__item {
   position: relative;
-  padding: 67px 30px 145px;
+  padding: 67px 30px 20px;
   background-color: #f9f8f8;
+  margin-bottom: 40px;
+  border-radius: 20px;
 }
 
 .products__item:hover {
@@ -424,6 +426,40 @@ img {
   font-size: 22px;
   line-height: 35px;
   color: #274c5b;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0;
   letter-spacing: 0.36px;
+}
+
+.product__description {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__oldprice {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-decoration-line: line-through;
+  color: #b8b8b8;
+}
+
+.product__price {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #274c5b;
+}
+
+.product__rating {
+  margin-left: 50px;
 }
 /*# sourceMappingURL=main.css.map */
