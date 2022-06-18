@@ -498,8 +498,14 @@ img {
 }
 
 .testimonial__profile {
-  text-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+  width: 966px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.testimonial__customer-image {
+  margin: 60px auto 18px;
 }
 
 .testimonial__message {
@@ -511,6 +517,7 @@ img {
   text-align: center;
   letter-spacing: 0.36px;
   color: #525c60;
+  margin-bottom: 23px;
 }
 
 .testimonial__message-author {
@@ -570,12 +577,8 @@ img {
   margin-top: -20px;
 }
 
-.border {
-  display: inline-block;
-  width: 966px;
-  height: 2px;
-  background-color: #e0e0e0;
+.rating {
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 25px;
 }
 /*# sourceMappingURL=main.css.map */

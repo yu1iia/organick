@@ -24,8 +24,19 @@
     text-align: center;
   }
   &__profile {
-    text-align: center;
-    padding-bottom: 80px;
+    // display: inline-block;
+    // text-align: center;
+    padding-bottom: 90px;
+    margin: 0 auto;
+    width: 966px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  &__customer-image {
+    // display: inline-block;
+    // text-align: center;
+    margin: 60px auto 18px;
+    // margin-top: 60px;
+    // margin-bottom: 18px;
   }
   &__message {
     font-family: 'Open Sans';
@@ -36,6 +47,8 @@
     text-align: center;
     letter-spacing: 0.36px;
     color: $font-color;
+
+    margin-bottom: 23px;
 
     &-author {
       font-family: $main-font;
@@ -95,11 +108,7 @@
     margin-top: -20px;
   }
 }
-.border {
-  display: inline-block;
-  width: 966px;
-  height: 2px;
-  background-color: #e0e0e0;
+.rating {
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 25px;
 }
