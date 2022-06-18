@@ -8,9 +8,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -21,9 +24,9 @@
           <a
             class="logo header__logo"
             href="./index.html"
-            aria-label="logo organic">
-            
-              <img src="./images/logo.png">
+            aria-label="logo organic"
+          >
+            <img src="./images/logo.png" alt="logo" />
           </a>
           <ul class="navigation__list list">
             <li class="navigation__list-element">
@@ -42,231 +45,426 @@
               <a class="navigation__list-link link" href="">Contact Us</a>
             </li>
           </ul>
-         </nav>  
+        </nav>
+      </div>
+      <!--Cart header-->
 
-         <!--Cart header-->
-
-        <div class="cart__container">
-          <a class="cart__icon link" href="./index.html">
-           <img src="./images/cart.svg">
-            
-          </a>
-          <a class="cart__details link" href="./index.html">
+      <div class="cart__container">
+        <a class="cart__icon link" href="./index.html">
+          <img src="./images/cart.svg" alt="cart" />
+        </a>
+        <a class="cart__details link" href="./index.html">
           Cart <span class="cart__added">0</span>
-            
-          </a>
-          
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!--HERO Section-->
+
+      <section class="hero">
+        <div class="hero__container container">
+          <h2 class="hero__description">Made with nature</h2>
+          <h1 class="hero__title">
+            Welcome to the <br />
+            world of nature <br />
+            and organic
+          </h1>
+          <button class="hero__button" type="button">
+            <span class="hero__button__container"
+              >Explore Now
+              <span class="cart__icon">
+                <img
+                  class="hero__button-icon"
+                  src="./images/arrow.svg"
+                  alt="arrow-button"
+                />
+              </span>
+            </span>
+          </button>
         </div>
-   
-  </header>
+      </section>
 
-  <main>
-    <!--HERO Section-->
+      <!--OFFERS Section-->
+      <section class="offers">
+        <div class="container">
+          <ul class="offers__list list">
+            <li class="offers__list-item">
+              <a class="offers__list-link link" href="./index.html">
+                <!-- <h3 class="offers__header natural" natural> Natural!!</h3>
+              <p class="offers__description natural">Get Garden <br> Fresh Fruits</p> -->
+                <img
+                  src="./images/fruits-offer.png"
+                  class="offers__img"
+                  alt="fruits"
+              /></a>
+            </li>
 
-    <section class="hero">
-      <div class="container">
-        <h2 class="hero__description">Made with nature</h2>
-        <h1 class="hero__title">Welcome to the </br> world of nature </br> and organic</h1>
-        <button class="hero__button" type="button">
-          <span class="hero__button__container">Explore Now
-          <span class="cart__icon" href="./index.html">
-           <img class="hero__button-icon"
-           src="./images/arrow.svg">
-            
-          </span>
-            
-          </span>
-          </span>
-        </button>
-      </div>
-    </section>
+            <li class="offers__list-item">
+              <a class="offers__list-link link" href="./index.html">
+                <!-- <h3 class="offers__header"> Offer!!</h3>
+              <p class="offers__description">Get 10% off <br> on Vegetables</p> -->
+                <img
+                  src="./images/vegetables-offer.png"
+                  class="offers__img"
+                  alt="vegetables"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-    <!--OFFERS Section-->
-    <section class="offers">
-      <div class="container">
-        <ul class="offers__list list">
+      <!--ABOUT US Section-->
+      <section class="about">
+        <div class="container">
+          <article class="about__container">
+            <img src="./images/healthfood.png" alt="healthfood" />
+            <div class="about__description">
+              <h3 class="about__title">About us</h3>
+              <h2 class="about__mission">
+                We Believe in Organic <br />
+                Foods For Strong Health
+              </h2>
+              <p class="about__description-welcome">
+                Welcome to the world of natural and organic. Here you can
+                discover the bounty of nature. We have grown on the principles
+                of health, and care. We aim to give our customers a healthy
+                chemical-free meal for perfect nutrition.
+              </p>
+              <ul class="about__mission-list list">
+                <li class="about__mission-item">
+                  <a class="about__link link" href="./index.html">
+                    <img
+                      class="about__mission-icon"
+                      src="./images/organicfood.png"
+                      alt="grapefruit"
+                      height="100"
+                      width="100"
+                    />
+                    <p class="about__mission-item-detailes">
+                      <span class="about__mission-item-title"
+                        >Organic Foods Only</span
+                      >
+                      The Product that you ordered will be verified that we have
+                      or not if have we will start to move on with the next
+                      step.
+                    </p>
+                  </a>
+                </li>
+                <li class="about__mission-item">
+                  <a class="about__link link" href="./index.html">
+                    <img
+                      class="about__mission-icon"
+                      src="./images/quality.png"
+                      alt="organic food"
+                      height="100"
+                      width="100"
+                    />
+                    <p class="about__mission-item-detailes">
+                      <span class="about__mission-item-title"
+                        >Quality Standards</span
+                      >
+                      Once your product is packed it will be delivered to your
+                      nearby locality you can directly visit the to buy the
+                      product.
+                    </p>
+                  </a>
+                </li>
+              </ul>
 
-          <li class="offers__list-item">
-            <a class="offers__list-link link" href="./index.html">
-              <!-- <h3 class="offers__header natural" natural> Natural!!</h3>
-              <p class="offers__description natural">Get Garden </br> Fresh Fruits</p> -->
-              <img src="./images/fruits-offer.png" class="offers__img"></a></li>
+              <button class="about__button" type="button">
+                <span class="about__button__container"
+                  >Shop Now
+                  <span class="about__icon">
+                    <img
+                      class="about__button-icon"
+                      src="./images/arrow.svg"
+                      alt="arrow-button"
+                    />
+                  </span>
+                </span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
 
-          <li class="offers__list-item">
-            <a class="offers__list-link link" href="./index.html">
-              <!-- <h3 class="offers__header"> Offer!!</h3>
-              <p class="offers__description">Get 10% off </br> on Vegetables</p> -->
-              <img src="./images/vegetables-offer.png" class="offers__img"></a></li>
+      <!--PRODUCTS Section-->
+      <section class="products">
+        <div class="container">
+          <h2 class="products__title">Organic</h2>
+          <p class="products__description">Our products</p>
+          <ul class="products__list list">
+            <li class="products__item">
+              <a class="products__link link">
+                <span class="products__category">Vegetable</span>
+                <img
+                  class="product__image"
+                  src="./images/broccoli.png"
+                  alt="broccoli"
+                  width="387"
+                  height="378"
+                />
+                <p class="product__name">Calabrese Broccoli</p>
+                <span class="product__info-border"></span>
+                <ul class="product__description list">
+                  <li class="product__oldprice">$ 25.00 USD</li>
+                  <li class="product__price">$ 21.00 USD</li>
+                  <li class="product__rating">
+                    <img src="./images/star.png" alt="rating stars" />
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="products__item">
+              <a class="products__link link">
+                <span class="products__category">Vegetable</span>
+                <img
+                  class="product__image"
+                  src="./images/corn.png"
+                  alt="corn"
+                  width="387"
+                  height="378"
+                />
+                <p class="product__name">Fresh Corn</p>
+                <span class="product__info-border"></span>
+                <ul class="product__description list">
+                  <li class="product__oldprice">$ 21.23 USD</li>
+                  <li class="product__price">$ 18.00 USD</li>
+                  <li class="product__rating">
+                    <img src="./images/star.png" alt="rating" />
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="products__item">
+              <a class="products__link link">
+                <span class="products__category">Mill</span>
+                <img
+                  class="product__image"
+                  src="./images/pistachio.png"
+                  alt="pistachio"
+                  width="387"
+                  height="378"
+                />
+                <p class="product__name">Dried Pistachio</p>
+                <span class="product__info-border"></span>
+                <ul class="product__description list">
+                  <li class="product__oldprice">$ 61.00 USD</li>
+                  <li class="product__price">$ 48.00 USD</li>
+                  <li class="product__rating">
+                    <img src="./images/star.png" alt="rating stars" />
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="products__item">
+              <a class="products__link link">
+                <span class="products__category">Vegetable</span>
+                <img
+                  class="product__image"
+                  src="./images/tomato.png"
+                  alt="tomato"
+                  width="387"
+                  height="378"
+                />
+                <p class="product__name">Vegan Red Tomato</p>
+                <span class="product__info-border"></span>
+                <ul class="product__description list">
+                  <li class="product__oldprice">$ 14.00 USD</li>
+                  <li class="product__price">$ 9.37 USD</li>
+                  <li class="product__rating">
+                    <img src="./images/star.png" alt="rating" />
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="products__item">
+              <a class="products__link link">
+                <span class="products__category">Fru</span>
+                <img
+                  class="product__image"
+                  src="./images/almond.png"
+                  alt="almond"
+                  width="387"
+                  height="378"
+                />
+                <p class="product__name">Organic Almonds</p>
+                <span class="product__info-border"></span>
+                <ul class="product__description list">
+                  <li class="product__oldprice">$ 21.00 USD</li>
+                  <li class="product__price">$ 18.00 USD</li>
+                  <li class="product__rating">
+                    <img src="./images/star.png" alt="rating" />
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="products__item">
+              <a class="products__link link">
+                <span class="products__category">Mill</span>
+                <img
+                  class="product__image"
+                  src="./images/huselnut.png"
+                  alt="huselnut"
+                  width="387"
+                  height="378"
+                />
+                <p class="product__name">Brown Hazelnut</p>
+                <span class="product__info-border"></span>
+                <ul class="product__description list">
+                  <li class="product__oldprice">$ 43.00 USD</li>
+                  <li class="product__price">$ 34.00 USD</li>
+                  <li class="product__rating">
+                    <img src="./images/star.png" alt="rating stars" />
+                  </li>
+                </ul>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        </ul>
-      </div>
-    </section>
+      <!--TESTIMONIAL Section-->
+      <section class="testimonial">
+        <div class="container">
+          <h2 class="testimonial__title">Testimonial</h2>
+          <p class="testimonial__question">What Our Customer Saying?</p>
 
-     <!--ABOUT US Section-->
-    <section class="about">
-      <div class="container">
-        <article class="about__container">
-          <img src="./images/healthfood.png">
-          <div class="about__description">
-            <h3 class="about__title">About us</h3>
-            <h2 class="about__mission">We Believe in Organic </br> Foods For Strong Health </h2>
-            <p class="about__description-welcome">Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition.</p>
-            <ul class="about__mission-list list">
-              <li class="about__mission-item">
-                <a class="about__link link" href="./index.html">
-                   <image class="about__mission-icon"src="./images/organicfood.png" height="100"" width="100"/>
-                  <p class="about__mission-item-detailes"><span class="about__mission-item-title">Organic Foods Only</span>
-                  The Product that you ordered will be verified that we have or not if have we will start to move on with the next step.
-                  </p>
-                </a>
-              </li>
-              <li class="about__mission-item">
-                <a class="about__link link" href="./index.html">
-                  <image class="about__mission-icon" src="./images/quality.png" height="100"" width="100"/>
-                  <p class="about__mission-item-detailes"><span class="about__mission-item-title">Quality Standards</span>
-                  Once your product is packed it will be delivered to your nearby locality you can directly visit the to buy the product.
-                  </p>
-                </a>
-              </li>
-            </ul>
-
-        <button class="about__button" type="button">
-          <span class="about__button__container">Shop Now
-          <span class="about__icon" href="./index.html">
-           <img class="about__button-icon"
-           src="./images/arrow.svg">
-            
-          </span>
-            
-          </span>
-          </span>
-        </button>
+          <div class="testimonial__profile">
+            <img
+              src="./images/customer-avatar.png"
+              alt="customer image"
+              class="testimonial__customer-image"
+            />
+            <br />
+            <img src="./images/star.png" alt="rating stars" class="rating" />
+            <p class="testimonial__message">
+              The quality of organic produce is extremely high, the service is
+              second to none and the taste of the food <br />
+              takes me back to my childhood when we were growing our own.
+            </p>
+            <p class="testimonial__message-author">Sara Taylor</p>
+            <p class="testimonial__message-author-status">Consumer</p>
           </div>
-        </article>
-    
-      </div>
-    </section>
 
-    <!--PRODUCTS Section-->
-    <section class="products">
-      <div class="container">
-        <h2 class="products__title">Organic</h2>
-        <p class="products__description">Our products</p>
-        <ul class="products__list list">
-          <li class="products__item"><a class="products__link link">
-            <span class="products__category">Vegetable</span>
-            <img class="product__image" src="./images/broccoli.png" alt="broccoli" width="387px" height= "378px">
-            <p class="product__name">Calabrese Broccoli</p>
-            <span class="product__info-border"></span>
-            <ul class="product__description list">
-              <li class="product__oldprice">$ 25.00 USD</li>
-              <li class="product__price">$ 21.00 USD</li>
-              <li class="product__rating">
-                <image src="./images/star.png" alt="stars rating"></image>
-              </li>
-            </ul>
-          </a></li> 
-          <li class="products__item"><a class="products__link link">
-            <span class="products__category">Vegetable</span>
-            <img class="product__image" src="./images/corn.png" alt="corn" width="387px" height= "378px">
-            <p class="product__name">Fresh Corn</p>
-            <span class="product__info-border"></span>
-            <ul class="product__description list">
-              <li class="product__oldprice">$ 21.23 USD</li>
-              <li class="product__price">$ 18.00 USD</li>
-              <li class="product__rating">
-                <image src="./images/star.png" alt="rating"></image>
-              </li>
-            </ul>
-          </a></li> 
-          <li class="products__item"><a class="products__link link">
-            <span class="products__category">Mill</span>
-            <img class="product__image" src="./images/pistachio.png" alt="pistachio" width="387px" height= "378px">
-            <p class="product__name">Dried Pistachio</p>
-            <span class="product__info-border"></span>
-            <ul class="product__description list">
-              <li class="product__oldprice">$ 61.00 USD</li>
-              <li class="product__price">$ 48.00 USD</li>
-              <li class="product__rating">
-                <image src="./images/star.png" alt="rating"></image>
-              </li>
-            </ul>
-          </a></li>
-          <li class="products__item"><a class="products__link link">
-            <span class="products__category">Vegetable</span>
-            <img class="product__image" src="./images/tomato.png" alt="tomato" width="387px" height= "378px">
-            <p class="product__name">Vegan Red Tomato</p>
-            <span class="product__info-border"></span>
-            <ul class="product__description list">
-              <li class="product__oldprice">$ 14.00 USD</li>
-              <li class="product__price">$ 9.37 USD</li>
-              <li class="product__rating">
-                <image src="./images/star.png" alt="rating"></image>
-              </li>
-            </ul>
-          </a></li>
-          <li class="products__item"><a class="products__link link">
-            <span class="products__category">Fru</span>
-            <img class="product__image" src="./images/almond.png" alt="almond" width="387px" height= "378px">
-            <p class="product__name">Organic Almonds</p>
-            <span class="product__info-border"></span>
-            <ul class="product__description list">
-              <li class="product__oldprice">$ 21.00 USD</li>
-              <li class="product__price">$ 18.00 USD</li>
-              <li class="product__rating">
-                <image src="./images/star.png" alt="rating"></image>
-              </li>
-            </ul>
-          </a></li>
-          <li class="products__item"><a class="products__link link">
-            <span class="products__category">Mill</span>
-            <img class="product__image" src="./images/huselnut.png" alt="huselnut" width="387px" height= "378px">
-            <p class="product__name">Brown Hazelnut</p>
-            <span class="product__info-border"></span>
-            <ul class="product__description list">
-              <li class="product__oldprice">$ 43.00 USD</li>
-              <li class="product__price">$ 34.00 USD</li>
-              <li class="product__rating">
-                <image src="./images/star.png" alt=""rating </image>
-              </li>
-            </ul>
-          </a></li>
-        </ul>
-      </div>
-    </section>
-
-    <!--FEEDBACK Section-->
-    <section class="testimonial">
-      <div class="container">
-        <h2 class="testimonial__title">Testimonial</h2>
-        <p class="testimonial__question">What Our Customer Saying?</p>
-
-        <div class="testimonial__profile">
-          <img src="./images/customer-avatar.png" alt="customer image" class="testimonial__customer-image"></image>
-        </br>
-          <image src="./images/star.png" alt="rating" class="rating"></image>
-          <p class="testimonial__message">The quality of organic produce is extremely high, the service is second to none and the taste of the food </br> takes me back to my childhood when we were growing our own.</p>
-          <p class="testimonial__message-author">Sara Taylor</p>
-          <p class="testimonial__message-author-status">Consumer</p>
+          <ul class="testimonial__list list">
+            <li class="testimonial__item">
+              100% <br /><span class="testimonial__options">Organic</span>
+            </li>
+            <li class="testimonial__item">
+              285 <br /><span class="testimonial__options"
+                >Active Product
+              </span>
+            </li>
+            <li class="testimonial__item">
+              385+ <br />
+              <span class="testimonial__options">Organic Orchads</span>
+            </li>
+            <li class="testimonial__item">
+              25+ <br /><span class="testimonial__options">
+                Years of Farming</span
+              >
+            </li>
+          </ul>
         </div>
+      </section>
 
-        <ul class="testimonial__list list">
-          <li class="testimonial__item">100% </br><span class="testimonial__options">Organic</span> </li>
-          <li class="testimonial__item">285 </br><span class="testimonial__options">Active Product </span></li>
-          <li class="testimonial__item">385+ </br> <span class="testimonial__options">Organic Orchads</span> </li>
-          <li class="testimonial__item">25+ </br><span class="testimonial__options"> Years of Farming</span> </li>
-        </ul>
-      </div>
-    </section>
+      <!--ORGANIC Section-->
+      <section class="organic">
+        <div class="container">
+          <h2 class="organic__title">Offer Products</h2>
+          <div class="organic__header-container">
+            <p class="organic__offer">We Offer Organic for You</p>
+            <button class="organic__button" type="button">
+              <span class="organic__button__container"
+                >View All Products
+                <span class="organic__icon">
+                  <img
+                    class="organic__button-icon"
+                    src="./images/arrow.svg"
+                    alt="arrow-button"
+                  />
+                </span>
+              </span>
+            </button>
+          </div>
 
-    <!--ORGANIC Section-->
-    <section>Organic</section>
+          <ul class="products__list list">
+            <li class="products__item">
+              <a class="products__link link">
+                <span class="products__category">Vegetable</span>
+                <img
+                  class="product__image"
+                  src="./images/tomato.png"
+                  alt="tomato"
+                  width="387"
+                  height="378"
+                />
+                <p class="product__name">Vegan Red Tomato</p>
+                <span class="product__info-border"></span>
+                <ul class="product__description list">
+                  <li class="product__oldprice">$ 14.00 USD</li>
+                  <li class="product__price">$ 9.37 USD</li>
+                  <li class="product__rating">
+                    <img src="./images/star.png" alt="rating stars" />
+                  </li>
+                </ul>
+              </a>
+            </li>
 
-    <!--FARM Section-->
-    <section>Farm</section>
+            <li class="products__item">
+              <a class="products__link link">
+                <span class="products__category">Fru</span>
+                <img
+                  class="product__image"
+                  src="./images/almond.png"
+                  alt="almond"
+                  width="387"
+                  height="378"
+                />
+                <p class="product__name">Organic Almonds</p>
+                <span class="product__info-border"></span>
+                <ul class="product__description list">
+                  <li class="product__oldprice">$ 21.00 USD</li>
+                  <li class="product__price">$ 18.00 USD</li>
+                  <li class="product__rating">
+                    <img src="./images/star.png" alt="rating stars" />
+                  </li>
+                </ul>
+              </a>
+            </li>
 
-    <!--NEWS Section-->
-    <section>News</section>
+            <li class="products__item">
+              <a class="products__link link">
+                <span class="products__category">Vegetable</span>
+                <img
+                  class="product__image"
+                  src="./images/corn.png"
+                  alt="corn"
+                  width="387"
+                  height="378"
+                />
+                <p class="product__name">Fresh Corn</p>
+                <span class="product__info-border"></span>
+                <ul class="product__description list">
+                  <li class="product__oldprice">$ 21.23 USD</li>
+                  <li class="product__price">$ 18.00 USD</li>
+                  <li class="product__rating">
+                    <img src="./images/star.png" alt="rating stars" />
+                  </li>
+                </ul>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--FARM Section-->
+      <section>Farm</section>
+
+      <!--NEWS Section-->
+      <section>News</section>
     </main>
 
     <!--SUBSCRIBE Section-->
