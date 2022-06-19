@@ -1,0 +1,70 @@
+.farm {
+  margin: 0 auto;
+  display: block;
+  &__container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  }
+  width: 1440px;
+  height: 704;
+  &__image {
+    background-image: url('../images/farm.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 720px;
+    height: 704px;
+  }
+  &__description {
+    height: 623px;
+    width: 770px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: -60px;
+    // margin-right: 110px;
+    padding-left: 40px;
+    // padding-right: 40px;
+    padding-bottom: 55px;
+    background-color: #ffffff;
+
+    position: relative;
+    left: 60;
+  }
+  &__title {
+    @include secondary-font;
+    padding-top: 40px;
+    padding-top: 40px;
+  }
+  &__mission-title {
+    font-family: $main-font;
+    color: $title-color;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.28;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+
+    padding-bottom: 30px;
+  }
+  &__offer-title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+
+    color: $title-color;
+  }
+  &__offer-description {
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.78;
+    letter-spacing: 0.36px;
+    color: $font-color;
+
+    margin-top: 4px;
+    margin-bottom: 15px;
+  }
+}

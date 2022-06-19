@@ -49,7 +49,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 177px 0 187px 0;
+  padding: 177px 0 150px 0;
 }
 
 .about__description {
@@ -139,7 +139,7 @@ img {
   color: white;
   border: none;
   border-radius: 30px;
-  margin-top: 35px;
+  margin-top: 50px;
   cursor: pointer;
 }
 
@@ -174,6 +174,115 @@ img {
 .about__link {
   display: flex;
   justify-content: space-between;
+}
+
+.cart__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 350px;
+  height: 70px;
+  width: 159px;
+  border: 1px solid #d4d4d4;
+  border-radius: 40px;
+}
+
+.cart__container:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 250ms linear;
+}
+
+.cart__details {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #274c5b;
+  letter-spacing: 0.36px;
+}
+
+.cart__added {
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
+.farm {
+  margin: 0 auto;
+  display: block;
+  width: 1440px;
+  height: 704;
+}
+
+.farm__container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.farm__image {
+  background-image: url("../images/farm.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 720px;
+  height: 704px;
+}
+
+.farm__description {
+  height: 623px;
+  width: 770px;
+  border-radius: 30px;
+  margin-top: 40px;
+  margin-left: -60px;
+  padding-left: 40px;
+  padding-bottom: 55px;
+  background-color: #ffffff;
+  position: relative;
+  left: 60;
+}
+
+.farm__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.80556;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7eb693;
+  font-family: "Yellowtail";
+  padding-top: 40px;
+  padding-top: 40px;
+}
+
+.farm__mission-title {
+  font-family: "Roboto", sans-serif;
+  color: #274c5b;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.28;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+
+.farm__offer-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274c5b;
+}
+
+.farm__offer-description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  letter-spacing: 0.36px;
+  color: #525c60;
+  margin-top: 4px;
+  margin-bottom: 15px;
 }
 
 .header .container {
@@ -285,37 +394,6 @@ img {
   padding: 12px;
 }
 
-.cart__container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 350px;
-  height: 70px;
-  width: 159px;
-  border: 1px solid #d4d4d4;
-  border-radius: 40px;
-}
-
-.cart__container:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: box-shadow 250ms linear;
-}
-
-.cart__details {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 1.7;
-  color: #274c5b;
-  letter-spacing: 0.36px;
-}
-
-.cart__added {
-  padding-right: 20px;
-  padding-left: 5px;
-}
-
 .offers {
   padding-top: 140px;
 }
@@ -357,7 +435,7 @@ img {
 }
 
 .organic {
-  padding: 140px 30px 140px;
+  padding: 140px 30px 950px;
   margin: 0 auto;
   display: block;
   height: 1060px;
