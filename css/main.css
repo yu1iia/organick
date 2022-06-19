@@ -176,6 +176,65 @@ img {
   justify-content: space-between;
 }
 
+.ads {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.ads__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 0;
+  background-color: #eff6f1;
+}
+
+.ads__item {
+  display: block;
+  height: 580px;
+  width: 460px;
+}
+
+.ads__item:first-child {
+  background-image: url("../images/fruit.png");
+}
+
+.ads__item:nth-child(2) {
+  background-image: url("../images/food.png");
+}
+
+.ads__item:nth-child(3) {
+  background-image: url("../images/nuts.png");
+}
+
+.ads__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.ads__description {
+  display: block;
+  width: 312px;
+  height: 95px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274c5b;
+  padding-top: 30px;
+  margin: auto;
+  margin-top: 243px;
+}
+
+.ads__description:hover {
+  font-size: 35px;
+  padding-top: 20px;
+  transition: font-size 250ms linear;
+}
+
 .cart__container {
   display: flex;
   justify-content: space-around;
@@ -217,7 +276,6 @@ img {
 .farm__container {
   display: flex;
   justify-content: center;
-  position: absolute;
 }
 
 .farm__image {
@@ -230,7 +288,7 @@ img {
 
 .farm__description {
   height: 623px;
-  width: 770px;
+  width: 790px;
   border-radius: 30px;
   margin-top: 40px;
   margin-left: -60px;
@@ -435,7 +493,7 @@ img {
 }
 
 .organic {
-  padding: 140px 30px 950px;
+  padding: 140px 30px 1000px;
   margin: 0 auto;
   display: block;
   height: 1060px;

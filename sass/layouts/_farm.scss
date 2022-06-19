@@ -4,7 +4,6 @@
   &__container {
     display: flex;
     justify-content: center;
-    position: absolute;
   }
   width: 1440px;
   height: 704;
@@ -17,13 +16,11 @@
   }
   &__description {
     height: 623px;
-    width: 770px;
+    width: 790px;
     border-radius: 30px;
     margin-top: 40px;
     margin-left: -60px;
-    // margin-right: 110px;
     padding-left: 40px;
-    // padding-right: 40px;
     padding-bottom: 55px;
     background-color: #ffffff;
 

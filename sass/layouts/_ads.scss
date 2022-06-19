@@ -1,0 +1,54 @@
+.ads {
+  width: 1440px;
+  margin: 0 auto;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 0;
+    background-color: #eff6f1;
+  }
+
+  &__item {
+    display: block;
+    height: 580px;
+    width: 460px;
+
+    &:first-child {
+      background-image: url('../images/fruit.png');
+    }
+    &:nth-child(2) {
+      background-image: url('../images/food.png');
+    }
+
+    &:nth-child(3) {
+      background-image: url('../images/nuts.png');
+    }
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  &__description {
+    display: block;
+    width: 312px;
+    height: 95px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: $title-color;
+    padding-top: 30px;
+    margin: auto;
+    margin-top: 243px;
+
+    &:hover {
+      font-size: 35px;
+      padding-top: 20px;
+      transition: font-size 250ms linear;
+    }
+  }
+}
