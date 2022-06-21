@@ -1,0 +1,27 @@
+.subscription {
+  display: block;
+  width: 1380px;
+  height: 320px;
+  margin: 0 auto;
+  border-radius: 30px;
+
+  background-color: $title-color;
+  background-image: url('../images/subscribe-bg.png');
+
+  &__form {
+    &-wrapper {
+      display: flex;
+      align-items: baseline;
+    }
+    &-title {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 1.2;
+      letter-spacing: 0.36px;
+      text-transform: capitalize;
+      color: #ffffff;
+    }
+  }
+}

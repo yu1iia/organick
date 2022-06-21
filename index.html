@@ -584,7 +584,21 @@
     </main>
 
     <!--SUBSCRIBE Section-->
-    <section>Subscribe</section>
+    <section class="subscription">
+<form class="subscription__form-wrapper">
+  <b class="subscription__form-title">Subscribe our<br>Newsletter</b>
+  <div class="subscription__form">
+    <input type="email" name="user-email" class="subscribe-form-input" placeholder="E-mail" required="">
+    <button type="submit" class="subscription__form-btn">
+            <span class="subscription__send-button-wrapper">Подписаться
+              <svg class="subscription__send-icon" width="24px" height="24px">
+                <use href="../images/sprite.svg#arrow"></use>
+              </svg>
+            </span>
+          </button>
+  </div>
+</form>
+    </section>
 
     <!--CONTACTS Section-->
     <section>Contacts</section>

@@ -844,6 +844,32 @@ img {
   margin-left: 50px;
 }
 
+.subscription {
+  display: block;
+  width: 1380px;
+  height: 320px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #274c5b;
+  background-image: url("../images/subscribe-bg.png");
+}
+
+.subscription__form-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.subscription__form-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
 .testimonial {
   margin: 0 auto;
   display: block;
