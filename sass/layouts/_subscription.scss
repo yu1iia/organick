@@ -8,20 +8,78 @@
   background-color: $title-color;
   background-image: url('../images/subscribe-bg.png');
 
+  &__form-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 70px;
+    padding-top: 100px;
+  }
+
   &__form {
-    &-wrapper {
-      display: flex;
-      align-items: baseline;
-    }
-    &-title {
-      font-family: $main-font;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 50px;
-      line-height: 1.2;
-      letter-spacing: 0.36px;
-      text-transform: capitalize;
-      color: #ffffff;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__form-title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #ffffff;
+
+    padding-right: 100px;
+  }
+  &__send-button-wrapper {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.36px;
+
+    color: $font-color;
+  }
+  &__form-input {
+    display: block;
+    width: 350px;
+    height: 82px;
+    padding-left: 30px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 16px;
+
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.36px;
+
+    color: $font-color;
+
+    margin-right: 10px;
+  }
+  &__form-btn {
+    display: flex;
+    align-items: center;
+    width: 197px;
+    height: 82px;
+    background: $title-color;
+    border: 1px solid $title-color;
+    border-radius: 16px;
+  }
+  &__send-btn-wrapper {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.6;
+    color: #ffffff;
+    padding-left: 36px;
   }
 }
