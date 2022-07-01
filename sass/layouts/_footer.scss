@@ -1,0 +1,73 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin-top: 182px;
+
+  &__address-container {
+    width: 270px;
+    padding-right: 20px;
+    padding-left: 30px;
+  }
+
+  &__address-title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: right;
+    letter-spacing: 0.36px;
+    color: $title-color;
+    padding-bottom: 35px;
+  }
+
+  &__contact-label {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.28;
+    text-align: right;
+    letter-spacing: 0.36px;
+
+    color: $font-color;
+  }
+
+  &__contacts-list {
+    text-align: right;
+  }
+
+  &__contacts-email {
+    padding-bottom: 40px;
+  }
+
+  &__contacts-phone {
+    padding-bottom: 40px;
+  }
+
+  &__contact-detail {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: right;
+    letter-spacing: 0.36px;
+
+    color: $font-color;
+  }
+
+  &__social {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-left: 1px solid #eff6f1;
+    border-right: 1px solid #eff6f1;
+
+    &-header {
+      display: inline-block;
+      text-align: center;
+    }
+  }
+}
