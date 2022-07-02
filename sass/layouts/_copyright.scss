@@ -1,0 +1,25 @@
+.copyright {
+  border-top: 1px solid #d5d5d5;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  &__item {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.78;
+    text-align: center;
+    letter-spacing: 0.36px;
+
+    color: $font-color;
+  }
+}
+.desined,
+.powered {
+  margin-left: 5px;
+}

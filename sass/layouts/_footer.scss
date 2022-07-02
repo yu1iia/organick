@@ -1,17 +1,17 @@
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
-
   margin-top: 182px;
+  padding-bottom: 100px;
 
   &__address-container {
-    width: 270px;
+    width: 350px;
     padding-right: 20px;
     padding-left: 30px;
   }
 
-  &__address-title {
+  &__address-header {
     font-family: $main-font;
     font-style: normal;
     font-weight: 700;
@@ -60,14 +60,58 @@
   }
 
   &__social {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
     border-left: 1px solid #eff6f1;
     border-right: 1px solid #eff6f1;
 
+    // display: block;
+    // margin: 0 auto;
+
     &-header {
-      display: inline-block;
+      display: block;
       text-align: center;
+
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.78;
+      letter-spacing: 0.36px;
+
+      color: $font-color;
+      margin-bottom: 50px;
+    }
+  }
+  &__logo {
+    display: block;
+    margin: 0 auto;
+
+    margin-bottom: 25px;
+  }
+  &__social-list {
+    display: flex;
+    justify-content: center;
+  }
+  &__social-item {
+    &:not(last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__utility {
+    padding-left: 20px;
+    &-item {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.61;
+      letter-spacing: 0.36px;
+
+      color: $font-color;
+
+      margin-bottom: 20px;
     }
   }
 }
