@@ -481,6 +481,10 @@ img {
   margin-bottom: 20px;
 }
 
+.footer__utility-link:hover {
+  font-weight: 700;
+}
+
 .header .container {
   display: flex;
   justify-content: center;
@@ -756,6 +760,10 @@ img {
   padding: 12px;
 }
 
+.news__loadmore:hover {
+  font-weight: 700;
+}
+
 .user__icon {
   width: 18px;
   height: 20px;
@@ -932,6 +940,7 @@ img {
 
 .products__item:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 250ms linear;
 }
 
 .product__image:hover {
@@ -1053,6 +1062,12 @@ img {
   background: #274c5b;
   border: 1px solid #274c5b;
   border-radius: 16px;
+  cursor: pointer;
+}
+
+.subscription__form-btn:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 250ms linear;
 }
 
 .subscription__send-btn-wrapper {
