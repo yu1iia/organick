@@ -113,6 +113,9 @@
 
       margin-bottom: 20px;
     }
+    &-link {
+      color: $font-color;
+    }
     &-link:hover {
       font-weight: 700;
     }
